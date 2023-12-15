@@ -4,14 +4,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>mbgg</title>
+  <title>ebgg</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    canvas {
+      transform: scale(3) !important;
+      position: absolute !important;
+      top: 2px !important;
+      left: 2px !important;
+    }
+  </style>
+  <link href="favicon.png" rel="icon" type="image/png"/>
 </head>
 
 <body>
   <canvas id="canvas" width="240" height="180"></canvas><br>
-  <textarea id="ff"></textarea>
+  <div class="pc">
+  <span id="selector"></span><button onclick="load()">update templates</button><br>
   <span id="loger"></span>
+    <br>
+    <br>
+    <h2>earthbound background generator (kinda)</h2>
+    TOOLS: <br>
+    <a href="/dpcmvis/">palCharMap visualizer</a><br>
+  </div>
   <script src="script.js"></script>
 </body>
 

@@ -1,7 +1,44 @@
 html {
   height: 100%;
   width: 100%;
+  font-size: 20px;
+  color: white;
+  background: #0d0046;
 }
 #loger {
+  color: red;
+}
+select {
+  font: inherit;
+  border: 2px solid white;
+  margin: 2px;
+}
+button {
+  border: 2px solid white;
+  margin: 2px;
+}
+.pc {
+  position: absolute;
+  top: 400px;
+}
+textarea {
+  resize: none;
+}
+canvas {
+  border: 1px solid white;
+}
+a:link {
+  color: cyan;
+}
+a:hover {
+  color: white;
+}
+a:hover::before {
+  content: "> ";
+}
+a:visited {
+  color: #82ffff;
+}
+a:active {
   color: red;
 }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ptm visualiser</title>
+  <link href="/style.css" rel="stylesheet" type="text/css" />
+  <link href="/favicon_tools.png" rel="icon" type="image/png"/>
+</head>
+
+<body>
+  <h2>PTM (or palTemMap) visualier</h2>
+  "easily visualize paltemmaps! create them even FASTER!" &leftarrow;someone, 2023<br>
+  <textarea id="paltemmap" placeholder="input your palTemMap" autofocus cols="120" rows="20" oninput="update.d()"></textarea><br>
+  Width: <span id="width"></span><br>
+  Height: <span id="height"></span><br>
+  <canvas width="240" height="180" id="canvas"></canvas><br>
+  the pal chars are:<br>
+  <pre>!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:</pre>
+  in this order. (case sensitive)  <br>
+  <a href="/">Go back</a>
+  <script src="script.js"></script>
+</body>
+
+</html>
